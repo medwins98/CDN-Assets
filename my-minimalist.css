@@ -100,7 +100,7 @@ main > .sc {margin-bottom: 1rem;}
 .post-item {padding: 1.2rem;text-decoration: none;color: inherit;display: flex;align-items: center;justify-content: space-between;transition: all 0.3s ease;border: 1px solid transparent;}
 .post-item:hover {transform: translateX(8px);border-color: var(--hsl-primary);box-shadow: 0 6px 16px var(--hsla-primary);}
 .post-category {font-size: 0.75rem;text-transform: uppercase;letter-spacing: 1px;color: var(--hsl-primary);font-weight: bold;display: block;margin-bottom: 4px;}
-.post-info h3 {margin: 0;font-size: 1.05rem;color: var(--text-dark);}
+.post-info .post-title {margin: 0;font-size: 1.05rem;color: var(--text-dark);}
 .post-date {font-size: 0.8rem;color: var(--text-light);}
 .arrow-icon {color: var(--hsl-primary);font-weight: bold;}
 
