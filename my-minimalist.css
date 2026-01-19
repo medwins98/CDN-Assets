@@ -74,9 +74,8 @@ main > .sc {margin-bottom: 1rem;}
 	background-color: var(--bg-sc);
 	color: var(--text-light);
 }
-.sc .heading {color: var(--text-dark);}
+.sc h1, .sc h2, .sc h3 {color: var(--text-dark);}
 .single-post .post-title {text-align:center;}
-//.single-post section > *:first-child  { margin-top: 2rem; border-bottom: 2px solid var(--border-color); }
 .post-tag {
 	display: inline-block;
 	color: var(--hsl-primary);
