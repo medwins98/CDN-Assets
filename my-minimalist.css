@@ -6,7 +6,7 @@
 	--text-light: rgb(96, 96, 96);
 	--hsl-h: 210;
 	--hsl-primary: hsl(var(--hsl-h), 90%, 40%);
-	--hsl-primary-bg-hover: hsla(var(--hsl-h), 100%, 25%);
+	--hsl-primary-darker: hsla(var(--hsl-h), 100%, 25%);
 	--hsla-primary: hsla(var(--hsl-h), 90%, 40%, 0.2);
 }
 body {
@@ -75,6 +75,7 @@ main > .sc {margin-bottom: 1rem;}
 	color: var(--text-light);
 }
 .sc h1, .sc h2, .sc h3 {color: var(--text-dark);}
+.single-post h2, .single-post h3 {margin-top: 1rem;}
 .single-post .post-title {text-align:center;}
 .post-tag {
 	display: inline-block;
@@ -105,9 +106,9 @@ main > .sc {margin-bottom: 1rem;}
 .arrow-icon {color: var(--hsl-primary);font-weight: bold;}
 
 a {color: var(--hsl-primary);text-decoration: none;}
-a:hover {color: var(--hsl-primary-bg-hover);}
+a:hover {color: var(--hsl-primary-darker);text-decoration: underline;}
 
-iframe {width: 100%;}
+iframe.google-form {width: 100%;height:auto !important;overflow-x:hidden;}
 
 #search-container {
 	display: flex;
@@ -118,6 +119,7 @@ iframe {width: 100%;}
 #search-container input {flex: 1;}
 #search-container > * {border: 1px solid var(--border-color);}
 .btn {color: #fff;background-color:var(--hsl-primary);}
+.btn:hover {color:inherit;}
 .btn-a {
 	display: block;
 	padding: 6px 12px;
@@ -133,5 +135,5 @@ iframe {width: 100%;}
 	color: #fff;
 	background-color: var(--hsl-primary);
 }
-.btn:hover, .btn-a:hover {background-color: var(--hsl-primary-bg-hover);}
-.monospace { font-family: monospace; }
+.btn:hover, .btn-a:hover {color:#fff;background-color: var(--hsl-primary-darker);}
+.monospace { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
