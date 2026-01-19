@@ -108,7 +108,7 @@ main > .sc {margin-bottom: 1rem;}
 a {color: var(--hsl-primary);text-decoration: none;}
 a:hover {color: var(--hsl-primary-darker);text-decoration: underline;}
 
-iframe.google-form {width: 100%;height:auto !important;overflow-x:hidden;}
+iframe {width: 100%;overflow-x:hidden;}
 
 #search-container {
 	display: flex;
