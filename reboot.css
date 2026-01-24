@@ -48,6 +48,8 @@ h6 { font-size: var(--h6-size); font-weight: 500; line-height: 1.5; }
 h1, h2, h3, h4, h5, h6 {text-wrap: balance;margin-top:0;margin-bottom: 0.5em;}
 p { margin-top: 0; margin-bottom: 1rem; }
 
+blockquote {margin: 0 0 1rem;}
+img {width: 100%;vertical-align:middle;}
 table {width: 100%;margin-bottom: 1rem;vertical-align: top;border-collapse: collapse;}
 th {text-align: inherit;text-align: -webkit-match-parent;font-weight: 600;}
 th, td {padding: 0.5rem;border: 1px solid var(--border-color);}
