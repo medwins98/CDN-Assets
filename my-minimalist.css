@@ -77,6 +77,7 @@ main > .sc {margin-bottom: 1rem;}
 .sc h1, .sc h2, .sc h3 {color: var(--text-dark);}
 .single-post h2, .single-post h3 {margin-top: 1rem;}
 .single-post .post-title {text-align:center;}
+.single-post figure {margin:0 0 12px 0;padding:0;font-size:0.85rem;width:100%;text-align:center;}
 .post-tag {
 	display: inline-block;
 	color: var(--hsl-primary);
@@ -107,7 +108,6 @@ main > .sc {margin-bottom: 1rem;}
 
 a {color: var(--hsl-primary);text-decoration: none;}
 a:hover {color: var(--hsl-primary-darker);text-decoration: underline;}
-
 iframe {width: 100%;overflow-x:hidden;}
 
 #search-container {
