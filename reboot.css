@@ -57,7 +57,7 @@ th, td {padding: 0.5rem;border: 1px solid var(--border-color);}
 ol, ul {padding-left: 1rem;}
 ol.inside, ul.inside {list-style-position: inside;}
 
-button, select { text-transform: none; }
+button, select {text-transform: none;}
 button, input, optgroup, select, textarea {
 	margin: 0;
 	font-size: inherit;
@@ -84,15 +84,7 @@ input, select, textarea {
 	border-radius: 8px;
 }
 
-.text-left {
-	text-align: left;
-}
-.text-right {
-	text-align: right;
-}
-.text-center {
-	text-align: center;
-}
-.text-justify {
-	text-align: justify;
-}
+.text-left {text-align: left;}
+.text-right {text-align: right;}
+.text-center {text-align: center;}
+.text-justify {text-align: justify;}
