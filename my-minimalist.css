@@ -109,6 +109,16 @@ main > .sc {margin-bottom: 1rem;}
 .post-date {font-size: 0.8rem;color: var(--text-light);}
 .arrow-icon {color: var(--hsl-primary);font-weight: bold;}
 
+footer{
+	width:100%;
+	text-align:center;
+	background-color: var(--bg-sc);
+	border-top: 1px solid var(--border-color);
+	color: var(--text-light);
+	font-size: 0.9rem;
+}
+#footer-nav{padding:8px 0;}
+
 a {color: var(--hsl-primary);text-decoration: none;}
 a:hover {color: var(--hsl-primary-darker);text-decoration: underline;}
 iframe {width: 100%;}
